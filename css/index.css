@@ -1,0 +1,121 @@
+
+
+/*# sourceMappingURL=index.css.map */
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;300;500&display=swap');
+
+body{
+	margin: 0;
+}
+
+.logo {
+    margin: 20px;
+    width: 100px;
+}
+*{
+	font-family: 'Montserrat', sans-serif;
+}
+h1,h2,h3{
+	text-align: center;
+	color: #333333;
+}
+.color{
+	font-size: 23px;
+    font-weight: 300;
+    margin-top: 5px;
+}
+h2{
+	font-size: 50px;
+	margin-top: 5px;
+    font-weight: 500;
+    line-height: 1;
+    margin-bottom: 14px;
+}
+h1{
+	font-size: 23px;
+    font-weight: 300;
+    margin: 4px 0 0 0;
+    line-height: 1;
+}
+.colorName{
+	color: #cccccc;
+    font-size: 15px;
+    text-align: center;
+}
+.inputs{
+	display: flex;
+    justify-content: center;
+}
+.colorLabel{
+	cursor: pointer;
+    height: 35px;
+    width: 25px;
+    margin: 1px 2px;
+    background-color: #bbb;
+    border-radius: 2px;
+}
+.solidBlack{
+	background-color: #2E2E2E;
+	border-bottom: 3px solid #b42323;
+}
+.midnightSilver{
+    background-color: #43424F;
+    border-bottom: 3px solid #b42323;
+}
+.obsidianBlack{
+    background-color: #000000;
+    border-bottom: 3px solid #505452;
+}
+.deepBlue{
+    background-color: #212252;
+    border-bottom: 3px solid #b42323;
+}
+.silver{
+    background-color: #A8A1A2;
+    border-bottom: 3px solid #b42323;
+}
+.white{
+    background-color: #ECEBEC;
+    border-bottom: 3px solid #716f70;
+}
+.red{
+    background-color: #c31130;
+    border-bottom: 3px solid #b42323;
+}
+.orange{
+    background-color: #F68B28;
+    border-bottom: 3px solid #5b5b5b;
+}
+.yellow{
+    background-color: #FBB842;
+    border-bottom: 3px solid #b88e05;
+}
+.glacierBlue{
+    background-color: #BBCBD0;
+    border-bottom: 3px solid #716f70;
+}
+.electricBlue{
+    background-color: #0F93DA;
+    border-bottom: 3px solid #7d7d7d;
+}
+.greenLotus{
+    background-color: #3d7866;
+    border-bottom: 3px solid #f8a00d;
+}
+input{
+	display: none;
+}
+.slideContainer{
+	max-width: 1000px;
+    position: relative;
+    margin: auto;
+}
+.slideContainer img{
+	width: 100%;
+}
+footer{
+	margin-top: 50px;
+	text-align: center;
+    font-size: 12px;
+    line-height: 20px;
+}
